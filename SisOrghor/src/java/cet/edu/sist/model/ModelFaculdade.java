@@ -23,6 +23,6 @@ public class ModelFaculdade {
         daoFaculdade.salvar(faculdade);
     }
 
-
+    
     
 }

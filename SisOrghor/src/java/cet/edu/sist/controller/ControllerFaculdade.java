@@ -32,7 +32,7 @@ public class ControllerFaculdade {
     
     public void cadastrar(){
         
-        faculdade.setEndereco(enderecos);        
+        faculdade.setEndereco(enderecos);
         modelFaculdade.salvar(faculdade);
 
         faculdade = new Faculdade();

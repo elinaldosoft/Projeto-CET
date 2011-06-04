@@ -18,5 +18,4 @@ public class DaoFaculdade extends BaseDaoJPA2<Faculdade> implements BaseDao<Facu
         return Faculdade.class;
     }
 
- 
 }

@@ -5,7 +5,6 @@
 package cet.edu.sist.persistence;
 
 import cet.edu.sist.dominio.BaseEntity;
-import java.util.List;
 
 /**
  *
@@ -15,6 +14,4 @@ import java.util.List;
 public interface BaseDao<T extends BaseEntity> {
     
     void salvar(T entity);
-    List<T> listTodos();
-    void excluir(T entity);
 }
